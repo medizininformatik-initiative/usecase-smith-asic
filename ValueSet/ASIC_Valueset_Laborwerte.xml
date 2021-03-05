@@ -1,0 +1,110 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="2.16.840.1.113883.3.1937.777.21.11.19--20190117140518"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/3.0/StructureDefinition/ValueSet"/>-->
+    </meta>
+    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+        <valuePeriod>
+            <start value="2019-01-17T14:05:18+01:00"/>
+        </valuePeriod>
+    </extension>
+    <url value="http://art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.777.21.11.19--20190117140518"/>
+    <identifier>
+        <use value="official"/>
+        <system value="http://art-decor.org/ns/oids/vs"/>
+        <value value="2.16.840.1.113883.3.1937.777.21.11.19"/>
+    </identifier>
+    <version value="2019-01-17T14:05:18"/>
+    <name value="ASIC_Lab_Results_LOINC"/>
+    <title value="ASIC_Lab_Results_LOINC"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <publisher value="SMITH"/>
+    <description value="ASIC_Lab_Results_LOINC"/>
+    <immutable value="false"/>
+    <compose>
+        <include>
+            <system value="http://loinc.org"/>
+            <concept>
+                <code value="26464-8"/>
+                <display value="Leukocytes [#/volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="26515-7"/>
+                <display value="Platelets [#/​volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="76485-2"/>
+                <display value="C reactive protein [Moles/​volume] in Serum or Plasma"/>
+            </concept>
+            <concept>
+                <code value="33959-8"/>
+                <display value="Procalcitonin [Mass/​volume] in Serum or Plasma"/>
+            </concept>
+            <concept>
+                <code value="72903-8"/>
+                <display value="Urea [Moles/​volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="59826-8"/>
+                <display value="Creatinine [Moles/​volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="47092-2"/>
+                <display value="Natriuretic peptide B [Moles/​volume] in Serum or Plasma"/>
+            </concept>
+            <concept>
+                <code value="54363-7"/>
+                <display value="Bilirubin.total [Moles/​volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="59260-0"/>
+                <display value="Hemoglobin [Moles/​volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="20570-8"/>
+                <display value="Hematocrit [Volume Fraction] of Blood"/>
+            </concept>
+            <concept>
+                <code value="54347-0"/>
+                <display value="Albumin [Moles/​volume] in Serum or Plasma"/>
+            </concept>
+            <concept>
+                <code value="1920-8"/>
+                <display value="Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"/>
+            </concept>
+            <concept>
+                <code value="1743-4"/>
+                <display value="Alanine aminotransferase [Enzymatic activity/​volume] in Serum or Plasma by With P-5'-P"/>
+            </concept>
+            <concept>
+                <code value="48425-3"/>
+                <display value="Troponin T.cardiac [Mass/volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="2157-6"/>
+                <display value="Creatine kinase [Enzymatic activity/​volume] in Serum or Plasma  "/>
+            </concept>
+            <concept>
+                <code value="32673-6"/>
+                <display value="Creatine kinase.MB [Enzymatic activity/​volume] in Serum or Plasma"/>
+            </concept>
+            <concept>
+                <code value="76630-3"/>
+                <display value="Amylase [Enzymatic activity/​volume] in Blood"/>
+            </concept>
+            <concept>
+                <code value="3040-3"/>
+                <display value="Lipase [Enzymatic activity/​volume] in Serum or Plasma"/>
+            </concept>
+            <concept>
+                <code value="34714-6"/>
+                <display value="INR in Blood by Coagulation assay"/>
+            </concept>
+            <concept>
+                <code value="3173-2"/>
+                <display value="aPTT in Blood by Coagulation assay"/>
+            </concept>
+        </include>
+    </compose>
+</ValueSet>
